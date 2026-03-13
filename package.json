@@ -3,6 +3,10 @@
   "private": true,
   "scripts": {
     "dev": "pnpm --parallel -r dev",
-    "build": "pnpm -r build"
+    "build": "pnpm -r build",
+    "check": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.5"
   }
 }
